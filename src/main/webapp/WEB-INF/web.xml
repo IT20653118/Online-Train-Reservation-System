@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  
+  <servlet>
+    <servlet-name>bookinginsert</servlet-name>
+    <servlet-class>com.TicketBooking.BookingInsertServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bookinginsert</servlet-name>
+    <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+    <servlet-name>bookingmanage</servlet-name>
+    <servlet-class>com.TicketBooking.BookingManageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bookingmanage</servlet-name>
+    <url-pattern>/viewbooking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>bookingupdate</servlet-name>
+    <servlet-class>com.TicketBooking.BookingUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bookingupdate</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>bookingdelete</servlet-name>
+    <servlet-class>com.TicketBooking.BookingDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bookingdelete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+   
+</web-app>

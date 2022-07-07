@@ -1,0 +1,253 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.booking-form-box {
+	
+	max-width:600px;
+	border: 1px solid #ced4da;
+	margin: 1% auto 0;
+}
+
+h2 {
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.booking-form {
+	
+	padding: 0 20px 20px;
+	
+}
+
+.booking-form label {
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #fff;
+}
+
+input::placeholder {
+	color: #A9A9A9!important;
+}
+
+.input-grp {
+	width: 276px;
+	display: inline-block;
+}
+
+.form-control {
+	
+	font-size: 12px!important;
+	border-radius: 0!important;
+	color: #fff!important;
+	background: transparent!important;
+	box-shadow: none!important;
+}
+
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.select-date::-webkit-calender-picker-indicator {
+	
+	background: transparent!important;
+}
+
+.custom-select {
+	
+	color: #fff!important;
+	font-size: 12px!important;
+	border: 1px solid #ced4da!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	background: transparent!important;
+}
+
+.custom-select option{ 
+	
+	color: #333;
+}
+
+.form-submit {
+	
+	width: 30%!important;
+	padding: 9px 0!important;
+	font-size: 16px;
+	color: #fff!important;
+	border: 1px solid #ced4da!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	
+}
+
+.form-submit:hover {
+	
+	background: #7FFFD4!important;
+	color: #000!important;
+	transition: 0.5s;
+}
+
+button {
+	
+	width: 35%!important;
+	padding: 9px 0!important;
+	font-size: 12px;
+	color: #fff!important;
+	border: 1px solid #ced4da!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	
+}
+
+button:hover {
+	
+	background: #00FFFF!important;
+	color: #000!important;
+	transition: 0.5s;
+}
+
+
+.bookingmanage {
+	
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background2.jpg);
+	background-size: auto;
+	background-position: center;
+}
+
+.booking-manage-box {
+	
+	max-width:600px;
+	height: 700px;
+	border: 1px solid #ced4da;
+	margin: 1% auto 0;
+}
+
+.booking-manage {
+	
+	padding: 0 20px 20px;
+	
+}
+
+.booking-manage label {
+	
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #fff;
+}
+
+table, tr, td {
+	
+	max-width:50%;
+	border: 1px solid #ced4da;
+	margin: 1% auto 0;
+	padding: 0 20px 20px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.updatebookings {
+	
+	width: 35%!important;
+	padding: 9px 0!important;
+	font-size: 16px;
+	color: #fff!important;
+	border: 1px solid #ced4da!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	margin-left: 70px;
+}
+
+.updatebookings:hover {
+	
+	background: #00FFFF!important;
+	color: #000!important;
+	transition: 0.5s;
+}
+
+.deletebookings {
+	
+	width: 35%!important;
+	padding: 9px 0!important;
+	font-size: 16px;
+	color: #fff!important;
+	border: 1px solid #ced4da!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+}
+
+.deletebookings:hover {
+	
+	background: #F08080!important;
+	color: #000!important;
+	transition: 0.5s;
+}
+
+
+.bookingupdate {
+	
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.form-update {
+	
+	width: 30%!important;
+	padding: 9px 0!important;
+	font-size: 16px;
+	color: #fff!important;
+	border: 1px solid #ced4da!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+}
+
+.form-update:hover {
+	
+	background: #00FFFF!important;
+	color: #000!important;
+	transition: 0.5s;
+}
+
+
+.bookingdelete {
+	
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.form-delete {
+	
+	width: 30%!important;
+	padding: 9px 0!important;
+	font-size: 16px;
+	color: #fff!important;
+	border: 1px solid #ced4da!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+}
+
+.form-delete:hover {
+	
+	background: #F08080!important;
+	color: #000!important;
+	transition: 0.5s;
+}
+
